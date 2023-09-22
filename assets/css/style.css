@@ -1,0 +1,24 @@
+ul {
+    list-style: none;
+}
+
+.masonry-container { /** Pinterest style (Masonry) layout**/
+    column-count: 1;
+  }
+  
+.masonry-item {
+    display: inline-block;
+    width: 100%;
+  }
+
+@media (min-width: 768px) {
+  .masonry-container {
+    column-count: 2;
+    }  
+}
+
+@media (min-width: 992px) {
+  .masonry-container {
+    column-count: 3;
+    }
+}
